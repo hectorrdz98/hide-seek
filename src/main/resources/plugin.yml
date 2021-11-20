@@ -1,0 +1,11 @@
+name: HideAndSeek
+version: '${project.version}'
+main: dev.sasukector.hideandseek.HideAndSeek
+api-version: 1.17
+authors: [ Sasukector ]
+description: This is the core plugin for HideAndSeek
+website: https://sasukector.dev
+commands:
+  game:
+    description: Command to manage game
+    usage: /game [option]
