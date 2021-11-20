@@ -41,9 +41,9 @@ public final class HideAndSeek extends JavaPlugin {
         // Load lobby location
         World world = ServerUtilities.getOverworld();
         if (world != null) {
-            ServerUtilities.setLobbySpawn(new Location(world, 0, 100, 0));
-            GameController.getInstance().setSeekersSpawn(new Location(world, 100, 100, 0));
-            GameController.getInstance().setHidersSpawn(new Location(world, -100, 100, 0));
+            ServerUtilities.setLobbySpawn(new Location(world, 33, 102, -24));
+            GameController.getInstance().setSeekersSpawn(new Location(world, -66, 13, -75));
+            GameController.getInstance().setHidersSpawn(new Location(world, 12, 10, 26));
         }
     }
 
